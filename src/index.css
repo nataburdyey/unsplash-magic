@@ -16,15 +16,15 @@ html {
 
 :root {
   /* colors */
-  --primary-100: #e2e0ff;
-  --primary-200: #c1beff;
-  --primary-300: #a29dff;
-  --primary-400: #837dff;
-  --primary-500: #645cff;
-  --primary-600: #504acc;
-  --primary-700: #3c3799;
-  --primary-800: #282566;
-  --primary-900: #141233;
+  --primary-100: #e7eae6;
+  --primary-200: #e4eae2;
+  --primary-300: #d6e0d4;
+  --primary-400: #adc0a8;
+  --primary-500: #a0b69a;
+  --primary-600: #adc0a8;
+  --primary-700: #85a17d;
+  --primary-800: #5f7858;
+  --primary-900: #3c4b37;
 
   /* grey */
   --grey-50: #f8fafc;
@@ -64,18 +64,18 @@ html {
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
   /* dark mode setup */
   --dark-mode-bg-color: #333;
-  --dark-mode-text-color: #f0f0f0;
+  --dark-mode-text-color: var(--primary-400);
   --backgroundColor: var(--grey-50);
-  --textColor: var(--grey-900);
+  --textColor: var(--primary-900);
   --darkModeTransition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --backgroundColor: var(--dark-mode-bg-color);
     --textColor: var(--dark-mode-text-color)
   }
-}
+} */
 
 .dark-theme {
   --backgroundColor: var(--dark-mode-bg-color);
@@ -356,7 +356,7 @@ Search Form
 ========
 */
 .title {
-  color: var(--primary-500);
+  color: var(--primary-700);
 }
 
 .search-form {
@@ -409,7 +409,6 @@ Gallery
     grid-template-columns: 1fr 1fr;
   }
 }
-
 @media (min-width: 992px) {
   .image-container {
     grid-template-columns: 1fr 1fr 1fr;
