@@ -373,8 +373,10 @@ Search Form
   transition: var(--darkModeTransition);
   color: var(--textColor);
   border-radius: 0;
+}
 
-  /* border-right: none; */
+.search-input:focus {
+  outline: none;
 }
 
 .search-form .btn {
@@ -409,6 +411,7 @@ Gallery
     grid-template-columns: 1fr 1fr;
   }
 }
+
 @media (min-width: 992px) {
   .image-container {
     grid-template-columns: 1fr 1fr 1fr;

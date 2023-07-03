@@ -6,14 +6,14 @@ const SearchForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const searchValue = e.target.elements.search.value;
-    console.log(searchValue)
+    console.log(searchValue);
     if (!searchValue) return;
     setSearchTerm(searchValue);
   };
 
   return (
     <section>
-      <h1 className="title">Unsplash Photo Gallery</h1>
+      <h1 className="title">UnsplashMagic</h1>
       <form className="search-form" onSubmit={handleSubmit}>
         <input
           type="text"
@@ -28,4 +28,5 @@ const SearchForm = () => {
     </section>
   );
 };
+
 export default SearchForm;
