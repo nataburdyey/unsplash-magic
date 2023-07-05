@@ -6,11 +6,13 @@
 
 ### The tech stack behind the project
 - `JavaScript`
-- `React`: JavaScript library used for building the project.
-- `React Query` A library employed to handle API requests and efficiently manage data fetching.
-- `useState`: A React hook used to manage state and create a state variable for the search input.
-- `useEffect`: A React hook used to perform side effects such as applying styles for dark mode based on user preferences.
-- `useContext`: A React hook used to provide and access global context in the application.
+- `React`: A powerful JavaScript library used to build the project:
+- - `useState`: Manage state and create a search input state variable
+- - `useEffect`: Perform side effects, such as applying dark mode styles based on user preferences
+- - `useContext`: Provide and access global context in the application
+- `React Query`: A library employed to handle API requests and efficiently manage data fetching
+- `React Query Devtools`: Inspect and debug React Query data and caching behavior
+- `Axios`: A popular HTTP client library for making API calls
 
 ### Discover the website
 [UnsplashMagic Website](https://unsplash-magic.netlify.app/)
